@@ -1,5 +1,7 @@
 require('dotenv').config();
 
+// Mongo DB
+require('./db/index');
 
 // API
 const http = require('http');
